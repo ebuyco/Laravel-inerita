@@ -10,8 +10,8 @@ class IndexController extends Controller
     {
         return inertia('Index/Index');
     }
-    public function show(Request $request)
+    public function show()
     {
-        //
+        return inertia('Index/Show');
     }
 }
