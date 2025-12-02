@@ -11,7 +11,7 @@ class IndexController extends Controller
         return inertia(
             'Index/Index',
             [
-                'message' => 'Hello from Laravel PHP'
+                'message' => 'Hello from Laravel 12 test site'
             ]
         );
     }
